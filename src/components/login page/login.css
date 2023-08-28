@@ -1,0 +1,54 @@
+.mainlogin{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to left,rgb(8, 8, 101),rgb(104, 10, 10));
+}
+
+
+
+.loginform{
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 26vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65vh;
+    height: 400px;
+    color: white;
+    opacity: 90%;
+    border-radius: 15px;
+}
+
+
+.email, .password{
+    font-size: 25px;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.text{
+    font-size: 15px;
+}
+
+.login{
+    border-radius: 15px;
+    font-style: bold;
+    font-size: 100%;
+    background-color: red;
+    color: black;
+    width: 20vh;
+    height: 7.5vh;
+}
+
+.login:hover {
+  opacity: 0.5;
+}
+
+
+

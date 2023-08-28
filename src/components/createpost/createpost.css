@@ -1,0 +1,56 @@
+.mainpostpage{
+    color: white;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    height: 70vh;
+    border-radius: 100px;
+}
+
+.topbar{
+    display: flex; 
+}
+
+.bottombar2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.publishbutton{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-right: 80px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.publishbutton:hover{
+  opacity: 0.5;
+}
+
+
+.titleinput{
+  height: 10%;
+  width: 50%;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.textinput{
+  max-width: 50%;
+  min-width: 50%;
+  max-height: 200px;
+  min-height: 200px;
+  font-size: 20px;
+}

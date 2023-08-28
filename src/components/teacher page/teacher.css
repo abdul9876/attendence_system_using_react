@@ -1,0 +1,43 @@
+
+
+.table-container {
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #14e1bf;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.936);
+  }
+  h2{
+    color: rgb(9, 193, 244);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #fcf6f6;
+    font-weight: bold;
+  }
+  
+  td {
+    vertical-align: middle;
+  }
+ tbody{
+    color: white;
+ }
+  .present {
+    color: rgb(255, 255, 255);
+  }
+  
+  .absent {
+    color: rgb(255, 0, 0);
+  }
+  
