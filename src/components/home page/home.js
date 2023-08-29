@@ -15,7 +15,7 @@ export default function Home() {
       <div className="main">
         <div className="left">
           <h3>Overview</h3>
-          <b>. This app consists of 3 modules.</b>
+          <b>. This app consists of 4 modules.</b>
           <b>. The first one is login where in user can register and login with his credentials.</b>
           <b>. The second one is to for the students where in students come in and mark their attendence.</b>
           <b>. The third one is for the teachers where in they will overview all the students details.</b>

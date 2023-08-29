@@ -6,7 +6,7 @@ import NavBar from "./components/nav bar/navbar.js"
 import Forum from './components/form page/form';
 import SignUp from './components/sign up page/signup';
 import TeacherPage from './components/teacher page/teacher'; 
-import CreatePost from './components/createpost/createpost';
+
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
         <Route path='/login' element={<LoginPage />} />
        <Route path='/signup' element={<SignUp />} />
        <Route path='/teacher' element={<TeacherPage/>} />
-        <Route path='/createpost' element={<CreatePost />} />
+    
       </Routes>
     </BrowserRouter>
   );
