@@ -3,10 +3,12 @@
 .table-container {
     margin: 20px auto;
     max-width: 800px;
-    border: 1px solid #14e1bf;
+    border-style:dotted;
+    border: 1px solid #9500ff;
     border-radius: 4px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.936);
+    background-image: linear-gradient(270deg,rgb(247, 10, 235),rgb(255, 0, 0));
   }
   h2{
     color: rgb(9, 193, 244);
